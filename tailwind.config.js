@@ -15,7 +15,14 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
             colors:{
-                verdecircuito:'#71AC50'
+                verdecircuito:'#71AC50',
+                marromcircuito:'#68485F',
+                cor_container1e2: '#C36254',
+                cor_container3: '#D38D37',
+                cor_container4: '#8C697F',
+                cor_container5: '#6DAC4E',
+                cor_container6: '#93BEDA',
+                cor_container7e8: '#9A749B',
             },
         },
     },
