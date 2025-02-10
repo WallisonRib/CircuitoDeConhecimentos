@@ -9,10 +9,6 @@
     <title>@yield('title')</title>
     
     <link rel="shortcut icon" href="{{ asset('images/circuito-logo-with-text.png') }}" type="image/png">
-
-
-    <img  class="h-16 object-contain" alt="Descrição da imagem">
-    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
@@ -24,7 +20,9 @@
 <body class="font-sans antialiased">
     <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
         <!-- Page Heading -->
+
         @include('components.navbar')
+
 
         @yield('header')
         <!-- Page Content -->
